@@ -1,6 +1,6 @@
 import React from 'react';
-import Logo from './components/logo';
-import './App.scss';
+import Logo from 'components/logo';
+import 'App.scss';
 
 const App = () => {
   return (
