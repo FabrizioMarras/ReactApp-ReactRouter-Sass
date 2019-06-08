@@ -17,7 +17,7 @@ function BasicExample() {
           </li>
         </ul>
 
-        <hr />
+
 
         <Route exact path="/" component={Home} />
         <Route path="/about" component={About} />
