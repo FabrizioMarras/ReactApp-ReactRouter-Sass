@@ -1,6 +1,6 @@
 import React from 'react';
 import Logo from 'components/logo';
-import 'App.scss';
+import 'sass/App.scss';
 
 const App = () => {
   return (
@@ -10,13 +10,11 @@ const App = () => {
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
+        <a  className="App-link"
+            href="https://reactjs.org"
+            target="_blank"
+            rel="noopener noreferrer" >
+          <span>Learn React</span>
         </a>
       </header>
     </div>
